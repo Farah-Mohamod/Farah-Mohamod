@@ -1,10 +1,14 @@
-- 👋 Hi, I’m @Farah-Mohamod
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#Dictionary : it consists of key and the values
 
-<!---
-Farah-Mohamod/Farah-Mohamod is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Dict={
+    "Username":["Admin","Admin1"],
+      "Password":"Pass",
+      "Os":"windows",
+      "Ram":"128GB"
+    
+}
+print(Dict["Username"])
+
+#update
+Dict["Password"]=32667
+print(Dict)
